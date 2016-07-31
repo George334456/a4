@@ -80,7 +80,7 @@ function addUser(email){
 };
 
 function viewProfile(email) {
-  var win = window.open("http://localhost:3000/user/" + email, '_blank');
+  var win = window.open("/user/" + email, '_blank');
   win.focus();
 }
 

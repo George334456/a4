@@ -27,7 +27,7 @@ $(document).ready(function(){
 				data:sendData
 			}).done(function(data){
 				alert(data);
-				location.replace("http://localhost:3000/user/" + currentEmail);
+				location.replace("/user/" + currentEmail);
 			});
 		}
 		else{
